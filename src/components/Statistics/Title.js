@@ -1,6 +1,5 @@
-import {TitleMain} from './Statistic.styled'
-export const Title =()=>{
-    return(
-    <TitleMain>Upload stats</TitleMain>
-    )
-}
+import { TitleMain } from './Statistic.styled';
+
+export const Title = ({ title }) => {
+  return title && <TitleMain>{title}</TitleMain>;
+};

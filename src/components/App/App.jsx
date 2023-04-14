@@ -23,7 +23,7 @@ export const App = () => {
         quantityLikes={user.stats.likes}
       />
       <SectionContainer>
-      <Title />
+      <Title title="Upload stats"/>
       <Statistic items={data} />
       </SectionContainer>
       <FriendList />

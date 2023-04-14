@@ -28,8 +28,8 @@ export const IsOnline = styled.span`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 48px;
-  height: 48px;
+  width: 18px;
+  height: 18px;
   padding: 0px;
   margin-left: 15px;
   margin-right: 25px;
@@ -38,10 +38,10 @@ export const IsOnline = styled.span`
     0 1px 3px rgb(0 0 0 / 12%);
   border-radius: 100%;
   background-color: ${props => {
-    console.log(props.isOnline);
+    
 
     return props.isOnline ? 'red' : 'green';
-  }};;
+  }};
 `;
 export const UserAvatar = styled.img`
   width: 48px;
