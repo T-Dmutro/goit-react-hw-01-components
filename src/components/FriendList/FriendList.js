@@ -5,6 +5,8 @@ export const FriendList=()=>{
         <div>
             <FriendListItem
             items={friend}/>
+            
         </div>
     )
 }
+// console.log(friend[0].isOnline)
